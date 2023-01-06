@@ -1,9 +1,11 @@
-import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="mt-5 ml-10 font-bold underline text-red-500">
-      This is a shopping website.
+    <div className='App'>
+      <div className='mt-5 ml-5'>
+      <Home/>
+      </div>
     </div>
   );
 }

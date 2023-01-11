@@ -17,7 +17,7 @@ function Navbar() {
         </div>
         {/* Logo */}
         <div className="center flex-1 text-center">
-          <div className="logo font-bold text-lg">Summer Kings</div>
+          <div className="logo font-bold text-lg">Spring collection</div>
         </div>
         {/* Right div */}
         <div className="right flex flex-1 items-center justify-end">

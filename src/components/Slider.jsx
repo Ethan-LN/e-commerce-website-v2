@@ -2,6 +2,7 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material'
 import React from 'react'
 import { ApiSlides } from '../API/SliderApi';
 import { useState } from 'react';
+import './Slider.css';
 
 function Slider() {
   // useState hooks

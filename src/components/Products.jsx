@@ -5,7 +5,7 @@ import Product from "./Product";
 function Products() {
   return (
     <div>
-      <div className="flex flex-wrap p-5 items-center justify-items-center">
+      <div className="flex columns-4 flex-wrap p-5 items-center justify-items-center">
         {ApiTopPropducts.map((product, index) => {
           return <Product item={product} key={index} />;
         })}

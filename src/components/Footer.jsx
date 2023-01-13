@@ -42,15 +42,15 @@ function Footer() {
       <div className="flex-1 flex flex-col p-2">
         {/* Contact information */}
         <div className="flex m-3">
-          <LocationOnOutlined />
+          <LocationOnOutlined className="text-purple-700"/>
           <p className="pl-3">State of Victoria</p>
         </div>
         <div className="flex m-3">
-          <LocalPhoneOutlined />
+          <LocalPhoneOutlined className="text-purple-700"/>
           <p className="pl-3">+61 (03) 9882 7987</p>
         </div>
         <div className="flex m-3">
-          <EmailOutlined />
+          <EmailOutlined className="text-purple-700"/>
           <p className="pl-3">info@springcollection.com.au</p>
         </div>
       </div>

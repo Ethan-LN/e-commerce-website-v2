@@ -16,7 +16,7 @@ function Product({ item }) {
     SetHoverEffect(" opacity-0");
   };
   const iconStyle =
-    "h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#894af3] hover:text-white hover:scale-[1.1] ease-in duration-200 cursor-pointer";
+    "h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#894af3] hover:text-white hover:scale-[1.1] ease-in duration-100 cursor-pointer";
   return (
     <div
       className="flex flex-1 items-center justify-center min-w-[190px] max-w-[220px] overflow-hidden rounded-md shadow-lg m-2 relative"

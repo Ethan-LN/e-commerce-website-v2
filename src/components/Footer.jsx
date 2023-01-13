@@ -43,15 +43,15 @@ function Footer() {
         {/* Contact information */}
         <div className="flex m-3">
           <LocationOnOutlined />
-          <p>State of Victoria</p>
+          <p className="pl-3">State of Victoria</p>
         </div>
         <div className="flex m-3">
           <LocalPhoneOutlined />
-          <p>+61 (03) 9882 7987</p>
+          <p className="pl-3">+61 (03) 9882 7987</p>
         </div>
         <div className="flex m-3">
           <EmailOutlined />
-          <p>info@springcollection.com.au</p>
+          <p className="pl-3">info@springcollection.com.au</p>
         </div>
       </div>
     </div>

@@ -24,13 +24,13 @@ function ProductPage() {
                 {/*color variants  */}
                 <div className='flex text-xl gap-2 mt-7'>
                     Colors
-                    <div className='bg-black w-[2rem] h-[2rem] rounded-full border-2 cursor-pointer'></div>
-                    <div className='bg-gray-400 w-[2rem] h-[2rem] border-2 rounded-full cursor-pointer'></div>
-                    <div className='bg-white w-[2rem] h-[2rem] border-2 rounded-full cursor-pointer'></div>
+                    <div className='bg-black w-[2rem] h-[2rem] rounded-full border-2 cursor-pointer hover:border-[#8a4af3]'></div>
+                    <div className='bg-gray-400 w-[2rem] h-[2rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]'></div>
+                    <div className='bg-white w-[2rem] h-[2rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]'></div>
                 </div>
                 <div className='mt-7 text-xl '>
                     Size
-                    <select className='ml-7 border-2 rounded-md'>
+                    <select className='ml-7 border-2 rounded-md hover:border-[#8a4af3]'>
                         <option selected disabled>Select</option>
                         <option>Small</option>
                         <option>Medium</option>

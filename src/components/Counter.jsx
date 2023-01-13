@@ -13,10 +13,10 @@ function Counter() {
         } 
     }
   return (
-    <div className='flex text-xl '>
+    <div className='flex text-xl'>
         Quantity
         <div className='ml-5 shadow-md flex'>
-            <div className='bg-[#8a4af3] text-white flex items-center justify-center w-8 rounded-l-md '>-</div>
+            <div className='bg-[#8a4af3] text-white flex items-center justify-center w-8 rounded-l-md'>-</div>
             <div className='border-[1px] w-8 flex items-center justify-center border-[#8a4af3]'>1</div>
             <div className='bg-[#8a4af3] text-white flex items-center justify-center w-8 rounded-r-md'>+</div>
         </div>

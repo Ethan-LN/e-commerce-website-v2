@@ -1,5 +1,6 @@
 import React from "react";
 import Announce from "../components/Announce";
+import Counter from "../components/Counter";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
@@ -34,10 +35,10 @@ function Cart() {
                 alt="product_img"
               />
             </div>
-            <div className="description sm:flex ml-5 h-auto justify-between">
+            <div className="description max-w-md: flex flex-auto ml-5 mb-3 h-auto sm: flex-col">
               <div>
                 <p className="mb-3">
-                  4<b>ID:</b> S3476543
+                  <b>ID:</b> S3476543
                 </p>
                 <p className="mb-3">
                   <b>Product:</b> White crew neck sweat shirt
@@ -50,11 +51,16 @@ function Cart() {
                   <b>Size:</b> Medium
                 </p>
               </div>
-              <div className="bg-green-300 ">Product quantity and price </div>
+              <div className="bg-green-300 flex flex-col justify-center items-center flex-auto">
+                <Counter />
+                <p className="flex items-center sm:justify-center text-xl  mt-3">
+                  <b>$70 AUD</b>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="bg-red-300"> Summary</div>
+        <div className="bg-red-300 ml-5 "> Summary</div>
       </div>
       <Newsletter />
       <Footer />

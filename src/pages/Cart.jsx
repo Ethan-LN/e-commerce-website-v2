@@ -35,7 +35,7 @@ function Cart() {
                 alt="product_img"
               />
             </div>
-            <div className="description ml-5 mb-3">
+            <div className="description ml-5 mb-3 flex flex-auto">
               <div>
                 <p className="mb-3">
                   <b>ID:</b> S3476543
@@ -51,16 +51,15 @@ function Cart() {
                   <b>Size:</b> Medium
                 </p>
               </div>
-
-            </div>
-          </div>
-        </div>
-        <div className="bg-green-300 flex flex-col justify-center items-center ">
+              <div className="bg-green-300 flex flex-col justify-center items-center flex-auto">
                 <Counter />
                 <p className="flex items-center sm:justify-center text-xl  mt-3">
                   <b>$70 AUD</b>
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
         <div className="bg-red-300 ml-5 "> Summary</div>
       </div>
       <Newsletter />

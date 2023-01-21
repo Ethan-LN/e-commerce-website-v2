@@ -24,7 +24,7 @@ function Cart() {
         <button className="btn">Checkout</button>
       </div>
       {/* central div */}
-      <div className="mt-7 sm:flex">
+      <div className="mt-7 md:flex">
         <div className="flex-col flex-1">
           {/* List of Products div */}
           <div className="flex w-[100%] h-auto items-center">
@@ -53,47 +53,66 @@ function Cart() {
               </div>
               <div className="bg-green-300 flex flex-col justify-center items-center flex-auto">
                 <Counter />
-                <p className="flex items-center sm:justify-center text-xl  mt-3">
+                <p className="flex items-center sm:justify-center text-xl mt-3">
                   <b>$70 AUD</b>
                 </p>
               </div>
             </div>
           </div>
-          <hr className="mt-7 mb-7 bg-blue-300"></hr>
+          <hr className="mt-7 mb-7"></hr>
           <div className="flex w-[100%] h-auto items-center">
             <div>
               <img
                 className="w-[7.2rem] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300"
-                src="https://cdn.shopify.com/s/files/1/0240/7285/products/VisitorsCrewneckSweatshirtinWhite11_360x.jpg?v=1642719779"
+                src="https://cdn.shopify.com/s/files/1/0240/7285/products/WithinYourselfLongSleeveT-ShirtinElectricBlue04_360x.jpg?v=1642719824"
                 alt="product_img"
               />
             </div>
             <div className="description ml-5 mb-3 flex flex-auto">
               <div>
                 <p className="mb-3">
-                  <b>ID:</b> S3476543
+                  <b>ID:</b> S3476553
                 </p>
                 <p className="mb-3">
-                  <b>Product:</b> White crew neck sweat shirt
+                  <b>Product:</b> Blue crew neck sweat shirt
                 </p>
                 <p className="flex gap-3 items-center justify-start mb-3">
                   <b>Color:</b>
-                  <div className="bg-white w-[1.5rem] h-[1.5rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]"></div>
+                  <div className="bg-blue-400 w-[1.5rem] h-[1.5rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]"></div>
                 </p>
                 <p className="mb-3">
-                  <b>Size:</b> Medium
+                  <b>Size:</b> Large
                 </p>
               </div>
-              <div className="bg-green-300 flex flex-col justify-center items-center flex-auto">
+              <div className="flex flex-col justify-center items-center flex-auto">
                 <Counter />
-                <p className="flex items-center sm:justify-center text-xl  mt-3">
-                  <b>$70 AUD</b>
+                <p className="flex items-center sm:justify-center text-xl mt-3">
+                  <b>$72 AUD</b>
                 </p>
               </div>
             </div>
           </div>
+          <hr className="mt-7 mb-7"></hr>
         </div> 
-        <div className="bg-red-300 ml-5 "> Summary</div>
+        <div className="ml-5 mr-5 p-5 flex-[0.4] w-auto h-[40vh] border-2 border-[#8a4af3] rounded-md shadow-lg flex flex-col items-center">
+            <h1 className="text-[2rem]">Summary</h1>
+            <div className="flex justify-between mt-3 w-[100%]">
+                <p>Subtotal</p>
+                <p>$142</p>
+            </div>
+            <div className="flex justify-between mt-3 w-[100%]">
+                <p>Shipping</p>
+                <p>$40</p>
+            </div>
+            <div className="flex justify-between mt-3 w-[100%]">
+                <p>shipping discount</p>
+                <p>$-40</p>
+            </div>
+            <div className="flex justify-between mt-3 w-[100%] font-bold text-2xl">
+                <p>Total</p>
+                <p>$142</p>
+            </div>
+        </div>
       </div>
       <Newsletter />
       <Footer />

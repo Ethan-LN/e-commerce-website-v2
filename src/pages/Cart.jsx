@@ -59,7 +59,40 @@ function Cart() {
               </div>
             </div>
           </div>
-        </div>
+          <hr className="mt-7 mb-7 bg-blue-300"></hr>
+          <div className="flex w-[100%] h-auto items-center">
+            <div>
+              <img
+                className="w-[7.2rem] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300"
+                src="https://cdn.shopify.com/s/files/1/0240/7285/products/VisitorsCrewneckSweatshirtinWhite11_360x.jpg?v=1642719779"
+                alt="product_img"
+              />
+            </div>
+            <div className="description ml-5 mb-3 flex flex-auto">
+              <div>
+                <p className="mb-3">
+                  <b>ID:</b> S3476543
+                </p>
+                <p className="mb-3">
+                  <b>Product:</b> White crew neck sweat shirt
+                </p>
+                <p className="flex gap-3 items-center justify-start mb-3">
+                  <b>Color:</b>
+                  <div className="bg-white w-[1.5rem] h-[1.5rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]"></div>
+                </p>
+                <p className="mb-3">
+                  <b>Size:</b> Medium
+                </p>
+              </div>
+              <div className="bg-green-300 flex flex-col justify-center items-center flex-auto">
+                <Counter />
+                <p className="flex items-center sm:justify-center text-xl  mt-3">
+                  <b>$70 AUD</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
         <div className="bg-red-300 ml-5 "> Summary</div>
       </div>
       <Newsletter />

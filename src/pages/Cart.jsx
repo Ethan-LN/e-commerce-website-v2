@@ -51,7 +51,7 @@ function Cart() {
                   <b>Size:</b> Medium
                 </p>
               </div>
-              <div className="bg-green-300 flex flex-col justify-center items-center flex-auto">
+              <div className="flex flex-col justify-center items-center flex-auto">
                 <Counter />
                 <p className="flex items-center sm:justify-center text-xl mt-3">
                   <b>$70 AUD</b>
@@ -94,7 +94,7 @@ function Cart() {
           </div>
           <hr className="mt-7 mb-7"></hr>
         </div> 
-        <div className="ml-5 mr-5 p-5 flex-[0.4] w-auto h-[40vh] border-2 border-[#8a4af3] rounded-md shadow-lg flex flex-col items-center">
+        <div className="ml-5 mr-5 mb-5 p-5 flex-[0.4] w-auto h-[40vh] border-2 border-[#8a4af3] rounded-md shadow-lg flex flex-col items-center">
             <h1 className="text-[2rem]">Summary</h1>
             <div className="flex justify-between mt-3 w-[100%]">
                 <p>Subtotal</p>

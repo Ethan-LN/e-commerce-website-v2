@@ -4,12 +4,12 @@ export default class Login extends React.Component {
   state = {
     username: "",
     password: "",
-  }
-  handleChange = (event) =>{
+  };
+  handleChange = (event) => {
     const fields = Object.assign({}, this.state);
     fields[event.target.name] = event.target.value;
-    this.setState({...fields})
-  }
+    this.setState({ ...fields });
+  };
   render() {
     return (
       <div className="flex justify-center">

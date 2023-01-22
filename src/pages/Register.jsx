@@ -58,13 +58,13 @@ export default class Register extends React.Component {
           </div>
           <div className="flex mt-3">
             <input
-                className="border-[2px] rounded-lg w-[100%] p-2 outline-[#8a4af3] focus:border-[#8a4af3] ease-linear duration-200"
-                name="confirmpass"
-                placeholder="confirm password"
-                value={this.state.confirmpass}
-                onChange={this.handleChange}
-                required
-    />
+              className="border-[2px] rounded-lg w-[100%] p-2 outline-[#8a4af3] focus:border-[#8a4af3] ease-linear duration-200"
+              name="confirmpass"
+              placeholder="confirm password"
+              value={this.state.confirmpass}
+              onChange={this.handleChange}
+              required
+            />
           </div>
           <input
             type="button"

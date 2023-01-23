@@ -18,7 +18,7 @@ function ProductPage() {
             className="w-[80%] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300"
           />
         </div>
-        <div className="flex-[1.3] flex justify-start flex-col mt-10 mobile:text-center">
+        <div className="flex-[1.3] flex justify-start flex-col mt-10">
           <h1 className="title text-[20px] "><b>White Crew Neck Sweat Shirt</b></h1>
           <p className="p-1 mt-4 ">
             Thisdfusdf dfdiud Suer kiodfdo fdgdlfjd dfdlfseref dfodfis dfte
@@ -31,7 +31,7 @@ function ProductPage() {
             Price: <b>$70 AUD</b>
           </p>
           {/*color variants  */}
-          <div className="flex text-xl gap-2 mt-7 mobile:justify-center">
+          <div className="flex text-xl gap-2 mt-7 ">
             Colors
             <div className="bg-black w-[2rem] h-[2rem] rounded-full border-2 cursor-pointer hover:border-[#8a4af3]"></div>
             <div className="bg-gray-400 w-[2rem] h-[2rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]"></div>

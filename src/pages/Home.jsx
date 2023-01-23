@@ -13,8 +13,7 @@ function Home() {
       <Announce />
       <Navbar />
       <Slider />
-      <Categories />
-      <p className="text-purple-900 ont-medium text-[30px] font-bold">Top Products</p>
+      <Categories />      
       <Products />
       <Newsletter />
       <Footer />

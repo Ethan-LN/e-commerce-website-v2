@@ -28,7 +28,7 @@ function Slider() {
     }
   };
   return (
-    <div className="parentDiv h-[540px] bg-white flex items-center justify-between">
+    <div className="parentDiv h-[300px] sm:h-[540px] bg-white flex items-center justify-between mobile:hidden">
       {/* leftarrow div */}
       <div className={arrowStyle}>
         <ArrowLeftOutlined style={{ fontSize: "50px" }} onClick={prvSlide} />
@@ -39,7 +39,7 @@ function Slider() {
           return (
             <div
               className={
-                `wrapper flex w-[100%] h-[500px] justify-center items-center shadow-2xl rounded-lg border-[#c0c0c0] border-10px overflow-hidden relative ` +
+                `wrapper flex w-[100%] h-[250px] sm:h-[500px] justify-center items-center shadow-2xl rounded-lg border-[#c0c0c0] border-10px overflow-hidden relative ` +
                 slide.background
               }
             >
@@ -47,9 +47,9 @@ function Slider() {
                 <div className="forImage flex flex-1 justify-center items-center h-[100%] object-cover">
                   <img src={slide.src} alt="slide__image" />
                 </div>
-                <div className="des flex flex-col flex-1 place-items-start justify-center -ml-11">
-                  <h2 className="text-[55px] text-white">{slide.content.h2}</h2>
-                  <p className="text-[30px] text-white">{slide.content.p}</p>
+                <div className="des flex flex-col flex-1 place-items-start justify-center ml-11">
+                  <h2 className="text-md text-white sm:text-[55px]">{slide.content.h2}</h2>
+                  <p className="text-sm text-white sm:text-[30px]">{slide.content.p}</p>
                   <button className="btn">Shop Now</button>
                 </div>
               </div>

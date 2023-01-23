@@ -16,7 +16,7 @@ export default class Register extends React.Component {
   render() {
     return (
       <div className="flex justify-center">
-        <div className="flex flex-col absolute top-[30%] shadow-lg border-[2px] rounded-lg w-[60%] p-5">
+        <div className="flex flex-col absolute top-[30%] shadow-lg border-[2px] rounded-lg w-[60%] p-5 mobile:w-[90%] mr-5">
           <text className="text-2xl">Register</text>
           <div className="flex mt-3 gap-3">
             <input

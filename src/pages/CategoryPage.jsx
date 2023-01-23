@@ -13,7 +13,7 @@ function CategoryPage() {
       <div className="flex flex-col p-5">
         <h1 className="text-[30px]">Men's Cloth</h1>
         <div className="flex items-center justify-between mt-3">
-          <div className="flex">
+          <div className="flex flex-col">
             <p>Filter by</p>
             <select className="ml-3 border-2 border-silver rounded-md">
               <option selected disabled>
@@ -23,7 +23,7 @@ function CategoryPage() {
               <option>Medium</option>
               <option>Large</option>
             </select>
-            <select className="ml-3 border-2 border-silver rounded-md">
+            <select className="ml-3 border-2 border-silver rounded-md mobile:mt-3">
               <option selected disabled>
                 color
               </option>
@@ -34,7 +34,7 @@ function CategoryPage() {
               <option>Black</option>
             </select>
           </div>
-          <div className="flex ">
+          <div className="flex">
             <p>Sort by</p>
             <select className="ml-3 border-2 border-silver rounded-md">
               <option>Newest (First)</option>

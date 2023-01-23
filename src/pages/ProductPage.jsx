@@ -19,8 +19,8 @@ function ProductPage() {
           />
         </div>
         <div className="flex-[1.3] flex justify-start flex-col mt-10">
-          <h1 className="title text-[20px] ">White Crew Neck Sweat Shirt</h1>
-          <p className="p-1 mt-4">
+          <h1 className="title text-[20px] "><b>White Crew Neck Sweat Shirt</b></h1>
+          <p className="p-1 mt-4 ">
             Thisdfusdf dfdiud Suer kiodfdo fdgdlfjd dfdlfseref dfodfis dfte
             fidht dfodfd! cvgfg trtfvf dkifd jdfs fkdsdfdf kioosidfs llldood
             fdkjd Thisdfusdf dfdiud Suer kiodfdo fdgdlfjd dfdlfseref dfodfis
@@ -31,7 +31,7 @@ function ProductPage() {
             Price: <b>$70 AUD</b>
           </p>
           {/*color variants  */}
-          <div className="flex text-xl gap-2 mt-7">
+          <div className="flex text-xl gap-2 mt-7 ">
             Colors
             <div className="bg-black w-[2rem] h-[2rem] rounded-full border-2 cursor-pointer hover:border-[#8a4af3]"></div>
             <div className="bg-gray-400 w-[2rem] h-[2rem] border-2 rounded-full cursor-pointer hover:border-[#8a4af3]"></div>
@@ -48,10 +48,10 @@ function ProductPage() {
               <option>Large</option>
             </select>
           </div>
-          <div className="mt-7">
+          <div className="mt-7 mobile:justify-center items-center">
             <Counter />
           </div>
-          <button className="btn w-[180px] mt-7">Add to cart</button>
+          <button className="btn w-[180px] mt-7 mobile:justify-center">Add to cart</button>
         </div>
       </div>
       <Newsletter />

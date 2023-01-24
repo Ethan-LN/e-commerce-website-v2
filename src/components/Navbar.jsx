@@ -1,6 +1,7 @@
 import { Search, ShoppingCartOutlined } from "@mui/icons-material";
 import { Badge } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const style = "text-[14px] cursor-pointer ml-[25px] mobile:ml-[12px] mobile:text-sm";
@@ -17,17 +18,17 @@ function Navbar() {
         </div>
         {/* Logo */}
         <div className="center flex-1 text-center">
-          <div className="logo font-bold text-lg mobile:text-sm">Spring collection</div>
+          <Link to="/" className="logo font-bold text-lg mobile:text-sm">Spring collection</Link>
         </div>
         {/* Right div */}
-        <div className="right flex flex-1 items-center justify-end mobile:flex-[2] mobile:justify-center">
-          <div className={style}>Register</div>
-          <div className={style}>Sign in</div>
-          <div className={style}>
+        <div className="right flex flex-1 items-center justify-end mobile:fglex-[2] mobile:justify-center">
+          <Link to="/register" className={style}>Register</Link>
+          <Link to="/login" className={style}>Sign in</Link>
+          <Link to="/cart" className={style}>
             <Badge badgeContent={2} color="primary">
               <ShoppingCartOutlined />
             </Badge>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

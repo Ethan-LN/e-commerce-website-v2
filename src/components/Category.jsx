@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Category({ item }) {
   return (
@@ -8,7 +9,9 @@ function Category({ item }) {
         <h2 className="text-purple-400 font-medium text-[30px]">
           {item.title}
         </h2>
-        <button className="btn">See more</button>
+        <Link to="/category">
+          <button className="btn">See more</button>
+        </Link>
       </div>
     </div>
   );

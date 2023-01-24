@@ -3,6 +3,7 @@ import React from "react";
 import { ApiSlides } from "../API/SliderApi";
 import { useState } from "react";
 import "./Slider.css";
+import { Link } from "react-router-dom";
 
 function Slider() {
   // useState hooks
@@ -50,7 +51,9 @@ function Slider() {
                 <div className="des flex flex-col flex-1 place-items-start justify-center ml-11">
                   <h2 className="text-md text-white sm:text-[55px]">{slide.content.h2}</h2>
                   <p className="text-sm text-white sm:text-[30px]">{slide.content.p}</p>
-                  <button className="btn">Shop Now</button>
+                  <Link to="/category">
+                    <button className="btn mt-7">Shop Now</button>
+                  </Link>
                 </div>
               </div>
             </div>

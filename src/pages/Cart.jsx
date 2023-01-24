@@ -11,9 +11,9 @@ function Cart() {
       <Announce />
       <Navbar />
       <div>
-        <div className="flex justify-center text-3xl">Cart</div>
+        <div className="flex justify-center text-3xl mt-5">Cart</div>
       </div>
-      <div className="flex items-center justify-between m-4">
+      <div className="flex items-center justify-between m-4 mobile:flex-col mobile:gap-5">
         <button className="btn bg-white text-[#8a4af3] border-2 border-[#8a4af3]">
           Continue Shopping
         </button>
@@ -27,15 +27,15 @@ function Cart() {
       <div className="mt-7 md:flex">
         <div className="flex-col flex-1">
           {/* List of Products div */}
-          <div className="flex w-[100%] h-auto items-center">
+          <div className="flex w-[100%] h-auto items-center mobile:flex-col mobile:gap-7">
             <div>
               <img
-                className="w-[7.2rem] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300"
+                className="w-[7.2rem] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300 mobile:w-[14.4rem]"
                 src="https://cdn.shopify.com/s/files/1/0240/7285/products/VisitorsCrewneckSweatshirtinWhite11_360x.jpg?v=1642719779"
                 alt="product_img"
               />
             </div>
-            <div className="description ml-5 mb-3 flex flex-auto">
+            <div className="description ml-5 mb-3 flex flex-auto mobile:flex-col">
               <div>
                 <p className="mb-3">
                   <b>ID:</b> S3476543
@@ -60,15 +60,15 @@ function Cart() {
             </div>
           </div>
           <hr className="mt-7 mb-7"></hr>
-          <div className="flex w-[100%] h-auto items-center">
+          <div className="flex w-[100%] h-auto items-center mobile:flex-col mobile:gap-7">
             <div>
               <img
-                className="w-[7.2rem] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300"
+                className="w-[7.2rem] rounded-lg shadow-lg hover:scale-[1.1] ease-in-out duration-300  mobile:w-[14.4rem]"
                 src="https://cdn.shopify.com/s/files/1/0240/7285/products/WithinYourselfLongSleeveT-ShirtinElectricBlue04_360x.jpg?v=1642719824"
                 alt="product_img"
               />
             </div>
-            <div className="description ml-5 mb-3 flex flex-auto">
+            <div className="description ml-5 mb-3 flex flex-auto mobile:flex-col">
               <div>
                 <p className="mb-3">
                   <b>ID:</b> S3476553

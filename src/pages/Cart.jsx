@@ -4,6 +4,7 @@ import Counter from "../components/Counter";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
+import { Link } from "react-router-dom";
 
 function Cart() {
   return (
@@ -14,14 +15,20 @@ function Cart() {
         <div className="flex justify-center text-3xl mt-5">Cart</div>
       </div>
       <div className="flex items-center justify-between m-4 mobile:flex-col mobile:gap-5">
-        <button className="btn bg-white text-[#8a4af3] border-2 border-[#8a4af3]">
+        {/* temperate link to home page */}
+        <Link to="/category">
+          <button className="btn bg-white text-[#8a4af3] border-2 border-[#8a4af3]">
           Continue Shopping
-        </button>
+          </button>
+        </Link>
         <div className="sm:flex underline text-md hover:cursor-pointer gap-5">
           <p>Items in your Cart: 3</p>
           <p>Whishlist Item: 0</p>
         </div>
-        <button className="btn">Checkout</button>
+        {/* temperate link to home page */}
+        <Link to="/">
+          <button className="btn">Checkout</button>
+        </Link>
       </div>
       {/* central div */}
       <div className="mt-7 md:flex">

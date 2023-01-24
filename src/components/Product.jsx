@@ -6,6 +6,8 @@ import {
 } from "@mui/icons-material";
 import { rgbToHex } from "@mui/material";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 function Product({ item }) {
   const [hoverEffect, SetHoverEffect] = useState(" opacity-0");
@@ -36,9 +38,9 @@ function Product({ item }) {
         <div className={iconStyle}>
           <FavoriteBorderOutlined />
         </div>
-        <div className={iconStyle}>
+        <Link to="/product" className={iconStyle}>
           <SearchOutlined />
-        </div>
+        </Link>
       </div>
     </div>
   );

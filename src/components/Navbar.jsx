@@ -20,7 +20,7 @@ function Navbar() {
           <div className="logo font-bold text-lg mobile:text-sm">Spring collection</div>
         </div>
         {/* Right div */}
-        <div className="right flex flex-1 items-center justify-end mobile:flex-[2] mobile:justify-center">
+        <div className="right flex flex-1 items-center justify-end mobile:fglex-[2] mobile:justify-center">
           <div className={style}>Register</div>
           <div className={style}>Sign in</div>
           <div className={style}>

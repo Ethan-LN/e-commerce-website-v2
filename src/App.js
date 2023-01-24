@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import ProductPage from "./pages/ProductPage";
 import Register from "./pages/Register";
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Wrapper from "./wrapper";
 
 function App() {
